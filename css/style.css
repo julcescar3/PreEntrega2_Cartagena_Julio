@@ -175,7 +175,7 @@ h3{
 /*****parte de CSS exclusiva para la  pagina productos*****/
 
 /*modifico los valores del carrusel para hacerlo mas responsive*/
-#carouselExampleIndicators{
+/*#carouselExampleIndicators{
    
     width:200px;
     margin:0 auto;
@@ -275,7 +275,7 @@ h3{
        width: 350px;
         height: 350px;
     }
-}
+}*/
 .carousel-item img{
     height: 350px;
 }
