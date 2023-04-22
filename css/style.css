@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap');
 
+/*modificaciones generales*/
 *{
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
@@ -20,6 +21,7 @@ h1{
     color: blue;
     font-size:large;
     margin:auto;
+    text-decoration: underline;
 
 }
 @media (min-width: 720px) {
@@ -46,7 +48,7 @@ h3{
 
 }
 
-
+/*modificaciones individuales*/
 #cabecera{
    
     background-image: url(../img/backgrounds/bubble.png);
@@ -83,11 +85,6 @@ h3{
    width:250px;
 }
 
-
-
-
-
-
 @media (min-width:720px)  {
     .imagen1{
     display:flex;
@@ -105,29 +102,23 @@ h3{
     }
     .imagen1 img{
     width:250px;
-    /* float: right;
+    float: right;
         margin-top: 50px;
         margin-right: 50px;
-    position: sticky;*/
+    position: sticky;
     }
 }
-
 
 .videos{
     display:flex;
     flex-direction: column;
-    
     justify-content: center;
     align-items: center; 
-
     margin:50px 0;
     gap:50px;
-   
-
 }
 .videos p{
     width:300px;
-
 }
 
 @media (min-width:720px){
@@ -137,29 +128,10 @@ h3{
         justify-content: center;
         align-items: center;
         gap:50px;
-
     }
-    .videos p{
-       
-        width: 200px;
-        
+    .videos p{   
+        width: 200px;    
     }
-
-}
-
-.formularios{
-    display: flex;
-    flex-direction: column;
-    
-    justify-content: center;
-    align-items: center; 
-    gap:50px;
-
-}
-.formularios p{
-
-    width:350px;
-
 }
 
 .estilo_menu{
@@ -169,7 +141,6 @@ h3{
 .nav-item:hover{
     background-color: chocolate;
 }
-
 
 .texto_final{
     color: rgb(165, 151, 42);
@@ -188,8 +159,6 @@ h3{
 .imagenes_flex1{
     display: flex;
     flex-direction:column;
- 
- 
 }
 .row{
     margin:0 100px;
@@ -203,7 +172,9 @@ h3{
     margin: auto;
 }
 
-/*CSS exclusivos pagina productos*/
+/*****parte de CSS exclusiva para la  pagina productos*****/
+
+/*modifico los valores del carrusel para hacerlo mas responsive*/
 #carouselExampleIndicators{
    
     width:200px;
@@ -237,15 +208,74 @@ h3{
         height: 350px;
     }
 }
+
 #carouselExampleIndicators2{
-    width:40%;
+   
+    width:200px;
     margin:0 auto;
+    height: 200px;
 }
-#carouselExampleIndicators3{
-    width:40%;
+#carouselExampleIndicators2 img{
     margin:0 auto;
+    height: 200px;
+}
+@media (min-width:768px){
+    #carouselExampleIndicators2{
+        width:300px;
+        height: 300px;
+        margin:0 auto;
+    }
+    #carouselExampleIndicators2 img{
+        width: 40%;
+        height: 300px;
+    }
+
+}
+@media (min-width:992px){
+    #carouselExampleIndicators2{
+        width:350px;
+        height: 350px;  
+        margin:0 auto;  
+    }
+    #carouselExampleIndicators2 img{
+       width: 350px;
+        height: 350px;
+    }
 }
 
+#carouselExampleIndicators3{
+   
+    width:200px;
+    margin:0 auto;
+    height: 200px;
+}
+#carouselExampleIndicators3 img{
+    margin:0 auto;
+    height: 200px;
+}
+@media (min-width:768px){
+    #carouselExampleIndicators3{
+        width:300px;
+        height: 300px;
+        margin:0 auto;
+    }
+    #carouselExampleIndicators3 img{
+        width: 40%;
+        height: 300px;
+    }
+
+}
+@media (min-width:992px){
+    #carouselExampleIndicators3{
+        width:350px;
+        height: 350px;  
+        margin:0 auto;  
+    }
+    #carouselExampleIndicators3 img{
+       width: 350px;
+        height: 350px;
+    }
+}
 .carousel-item img{
     height: 350px;
 }
@@ -281,7 +311,7 @@ h3{
     }
 }
 
-
+/*css para cambiar el tipo de plecha en el carrusel de imagenes*/
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 40px;
     width:40px;
