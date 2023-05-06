@@ -1,0 +1,88 @@
+/*archivo de estilo correspondiente a pagina index de inicio*/
+
+.imagen1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap:50px;
+    margin:50px 0; 
+    p{
+        width:300px;
+    }
+    img{ 
+        width:250px;
+     }
+
+}
+
+
+
+@media (min-width:720px)  {
+    .imagen1{
+        display:flex;
+        flex-direction: row;
+        
+        justify-content: center;
+        align-items: center;
+            
+        margin:50px 0;    
+        gap: 130px;
+        p{
+            width:500px;
+        }
+        img{
+            width:300px;
+            float: right;
+            margin-top: 50px;
+            margin-right: 50px;
+            position: sticky;
+        }
+    }
+}
+
+.videos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin:50px 0;
+    gap:50px;
+    p{
+        width:300px;
+    }
+}
+
+
+@media (min-width:720px){
+    .videos{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:50px;
+        p{   
+            width: 400px;    
+        }
+    }
+    
+}
+.tamaño1{
+    font-size: larger;
+}
+
+.tamaño2{
+    font-size:x-large;
+}
+
+.texto_comentario{
+    color: rgb(46, 165, 42);
+    font-weight: 700;
+    width:80%;
+    margin:auto;
+    margin-top: 50px;
+}
+
+.alinear{
+    margin: auto;
+}

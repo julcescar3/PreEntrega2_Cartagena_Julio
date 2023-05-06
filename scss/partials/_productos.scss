@@ -1,0 +1,122 @@
+/*hoja de estilos para pagina productos*/
+
+/*****parte de CSS exclusiva para la  pagina productos*****/
+/*modifico los valores del carrusel para hacerlo mas responsive*/
+#carouselExampleIndicators{
+   
+    width:200px;
+    margin:0 auto;
+    height: 200px;
+    img{
+        margin:0 auto;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px){
+    #carouselExampleIndicators{
+        width:300px;
+        height: 300px;
+        margin:0 auto;
+        img{
+            width: 40%;
+            height: 300px;
+        }
+    }
+}
+@media (min-width:992px){
+    #carouselExampleIndicators{
+        width:350px;
+        height: 350px;  
+        margin:0 auto;  
+        img{
+            width: 350px;
+             height: 350px;
+         }
+    } 
+}
+
+#carouselExampleIndicators2{
+   
+    width:200px;
+    margin:0 auto;
+    height: 200px;
+    img{
+        margin:0 auto;
+        height: 200px;
+    }
+}
+ 
+@media (min-width:768px){
+    #carouselExampleIndicators2{
+        width:300px;
+        height: 300px;
+        margin:0 auto;
+        img{
+            width: 40%;
+            height: 300px;
+        }
+    }
+}
+@media (min-width:992px){
+    #carouselExampleIndicators2{
+        width:350px;
+        height: 350px;  
+        margin:0 auto;  
+        img{
+            width: 350px;
+             height: 350px;
+        }
+    }
+}
+
+#carouselExampleIndicators3{
+   
+    width:200px;
+    margin:0 auto;
+    height: 200px;
+    img{
+        margin:0 auto;
+        height: 200px;
+    }
+}
+
+@media (min-width:768px){
+    #carouselExampleIndicators3{
+        width:300px;
+        height: 300px;
+        margin:0 auto;
+        img{
+            width: 40%;
+            height: 300px;
+        }
+    }
+}
+@media (min-width:992px){
+    #carouselExampleIndicators3{
+        width:350px;
+        height: 350px;  
+        margin:0 auto;  
+        img{
+            width: 350px;
+             height: 350px;
+        }
+    }
+}
+
+.carousel-item img{
+    height: 350px;
+}
+
+/*css para cambiar el tipo de flecha en el carrusel de imagenes*/
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 40px;
+    width:40px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: brown;
+    background-size: 100%, 100%;
+    border-radius: 40%;
+    border: 1px solid black;
+    margin: 0 10px;
+}

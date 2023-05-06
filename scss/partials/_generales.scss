@@ -1,0 +1,128 @@
+
+/*inicio css*/
+/*modificaciones generales*/
+
+
+
+body{
+    background-image: url(../img/backgrounds/flower.png);
+}
+p{
+    color: aqua;
+}
+h1{
+    color: blue;
+    font-size:large;
+    margin:auto;
+    text-decoration: underline;
+
+}
+@media (min-width: 720px) {
+    h1{
+        color: blue;
+        font-size:x-large;
+    }
+
+}
+h2{
+    color: rgb(255, 0, 195);
+    font-size:medium;
+    margin:auto;
+}
+@media (min-width: 720px) {
+    h2{
+        color: rgb(255, 0, 195);
+        font-size:large;
+    }
+
+}
+h3{
+    font-size: small;
+
+}
+
+/*modificaciones individuales*/
+#cabecera{
+   
+    background-image: url(../img/backgrounds/bubble.png);
+    width:100%;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(0, 255, 187);
+    padding: 20px 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+   
+}
+#cabecera nav ul{
+    gap: 15px;
+    margin-top: 40px;
+    margin-right: 50px;
+    list-style: none; 
+}
+
+
+.estilo_menu{
+    font-size:larger;
+    font-weight: 800;
+}
+
+
+
+.texto_final{
+    color: rgb(165, 151, 42);
+    font-weight: 900;
+    width:100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.texto{
+    color:rgb(183, 0, 255);
+    font-weight: 900;
+    
+}
+
+
+
+
+.centrar{
+    margin:15px auto;
+    
+}
+.centrar iframe{
+    width:200px;
+    height: 200px;
+}   
+@media (min-width:768px){
+    .centrar{
+        margin:15px auto; 
+        
+    }
+    
+    .centrar iframe{
+       width:300px;
+        height:300px;
+        
+    }
+}
+@media (min-width:992px) {
+
+ .centrar{
+        margin:0 auto;
+        
+    }
+    .centrar iframe{
+        width:350px;
+        height:350px;
+    }
+}
+
+
+.nav-item:hover {
+    background-color: chocolate;
+  }
