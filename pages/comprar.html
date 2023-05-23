@@ -3,126 +3,145 @@
     de alimentos para perros...
 -->
 <!-- primer pagina web creada por julio cesar cartagena...-->
-<!-- pagina html de compra de productos -->
+<!-- pagina html de compra de productos (comprar.html)-->
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/icono.png" type="">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/icono.png" type="">
 
+        <!--Css de boostrap-->
+        <!-- <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
+        
+        <!--Etiquetas SEO-->
+        <meta name="description" content="aca se encontrara la pagina donde podra realizar las compras de sus productos">
+        <meta name="keywords" content="compras, productos, dispensadores,">
+        <title>dipensadores de alimento para mascotas | compras</title>
+    </head>
 
-    <!--Css de boostrap-->
-    <!-- <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css"> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    
-    <!--Etiquetas SEO-->
-    <meta name="description" content="aca se encontrara la pagina donde podra realizar las compras de sus productos">
-    <meta name="keywords" content="compras, productos, dispensadores,">
-    <title>dipensadores de alimento para mascotas | compras</title>
+    <body>
+        <header id="cabecera">
+            <a href="../index.html">
+                <img src="../img/favicon/favicon.ico" alt="Logo de html">
+            </a>   
+            <h1>Comprar Producto:</h1>  
 
-</head>
-<body>
-    <header id="cabecera">
-        <a href="../index.html">
-            <img src="../img/favicon/favicon.ico" alt="Logo de html">
-        </a>   
-        <h1>Comprar Producto:</h1>    
+            <!-- menu de navegacion -->
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse estilo_menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"  href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"  href="descripcion.html">Descripcion</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"  href="comprar.html">Comprar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                            </li>
+                        </ul>     
+                    </div>
+                </div>
+            </nav>   
+        </header>
 
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
-            <label for=""></label>
-                <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse estilo_menu" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"  href="productos.html">Productos</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"  href="descripcion.html">Descripcion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"  href="nosotros.html">Nosotros</a>
-                </li>
-                </ul>
-                
-            </div>
-        </nav>
-       
-    </header>
-    <main>
-        <section class="container mt-5">
-            
-            <h2 class="text-center mb-4">DISPENSADOR 1</h2>
-            <div class="row">    
-                <div class="col-12 col-md-4 col-lg-4">
-                    <img src="../img/dispensador1.png" width="250" height="250" alt="primer equipo a la venta" >
+        <main>
+            <section class="container mt-5">    
+                <h2 class="text-center mb-4 color2">DISPENSADOR 1</h2>
+                <div class="row">    
+                    <div class="col-12 col-md-4 col-lg-4 ">
+                        <img src="../img/dispensador 1.png" width="250" height="250" alt="primer equipo a la venta" class="mx-auto d-block" >
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 mt-4">
+                        <p class="tamaño1 text-center">Automatic Feeding & App Remote Control Si estás de viaje o en el trabajo, puedes ver cómodamente y controlar los hábitos alimenticios de tu mascota a través de la aplicación TUYA. Ya no tendrás que preocuparte por que tu mascota muera de hambre en casa por sí misma. Este comedero tiene una función de temporizador para establecer una dieta científica y saludable para tu perro y gato. (Soporta solo la red de 2,4 GHz)</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 mt-5">
+                        <div>
+                            <form action="" class="text-center">
+                                <label for="cantidad" class="color_label1">cantidad:</label>
+                                <input type="number" name="" id="cantidad">            
+                                <input type="submit" value="comprar" class="boton-compra">
+                            </form>
+                        </div>
+                        <div class="mt-4 text-center">
+                            <h2 class="color1">precio: $48.000</h2>
+                        </div>
+                        <div class="mt-3 text-center">
+                            
+                            <p class="oferta1 color4">!!!En!!!</p>
+                            <p class="oferta1 color4">!!!Oferta!!!</p>
+                        </div>    
+                    </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4 mt-5">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quo animi, facere harum iusto, repellendus hic officia illum obcaecati voluptas impedit aut officiis repellat architecto corrupti! Error ratione ut autem.</p>
-                </div>
-                <div class="col-12 col-md-4 col-lg-4 mt-5">
-                    <form action="" >
-                        <label for="cantidad">cantidad:</label>
-                        <input type="number" name="" id="cantidad">            
-                        <input type="submit" value="comprar">
-                    </form>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="container mt-5">
-            <h2 class="text-center mb-4">DISPENSADOR 2</h2>
-            <div class="row">
-                <div class="col-12 col-md-4 col-lg-4">
-                    <img src="../img/dispensador 2.png" width="250" height="250" alt="segundo equipo a la venta" >
+            <section class="container mt-5">
+                <h2 class="text-center mb-4 color2">DISPENSADOR 2</h2>
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <img src="../img/dispensador 2.jpg" width="250" height="250" alt="segundo equipo a la venta" class="mx-auto d-block">
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 mt-5">
+                        <p class="tamaño1 text-center">【Aplicación inteligente e interacción divertida】 Nuestro comedero automático para mascotas es fácil de configurar, admite 2,4 GHz y alimenta a su mascota en cualquier momento y lugar a través de la aplicación. Pre-grabado 10s-voz jugó mientras se alimenta. Deje que su mascota le encanta su voz.</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 mt-5">
+                        <div>   
+                            <form action="" class="text-center">
+                                <label for="cantidad" class="color_label1">cantidad:</label>
+                                <input type="number" name="" id="cantidad">
+                                <input type="submit" value="comprar" class="boton-compra">
+                            </form>
+                        </div>     
+                        <div class="mt-4 text-center">
+                            <h2 class="color1">precio: $27.000</h2>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4 mt-5">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laboriosam impedit aspernatur eaque illum, voluptas facilis aliquam odio quasi consectetur quam aut animi dolorum repudiandae corporis expedita, ratione nemo aliquid!</p>
-                </div>
-                <div class="col-12 col-md-4 col-lg-4 mt-5">
-                    <form action="">
-                        <label for="cantidad">cantidad:</label>
-                        <input type="number" name="" id="cantidad">
-                        <input type="submit" value="comprar">
-                    </form>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="container mt-5">
-            <h2 class="text-center mb-4">dispensador 3</h2>
-            <div class="row">
-                <div class="col-12 col-md-4 col-lg-4">
-                    <img src="../img/dispensador 3.jpg" width="250" height="250" alt="tercer equipo a la venta" >
+            <section class="container mt-5">
+                <h2 class="text-center mb-4 color2">DISPENSADOR 3</h2>
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <img src="../img/dispensador 3.png" width="250" height="250" alt="tercer equipo a la venta" class="mx-auto d-block">
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 mt-5">
+                        <p class="tamaño1 text-center">【😸 MATERIALES DE ALTA CALIDAD】 Este juego de agua y comida para mascotas está hecho de plástico de calidad alimentaria, seguro, no tóxico y respetuoso con el medio ambiente, una buena elección de dispensador de comida y agua para su cachorro Animales. (No lo limpie con agua caliente). La salud de su cachorro y gatito está bien protegida.</p>
+                    </div>    
+                    <div class="col-12 col-md-4 col-lg-4 mt-5">
+                        <div>   
+                            <form action="" class="text-center">
+                                <label for="cantidad" class="color_label1">cantidad:</label>
+                                <input type="number" name="" id="cantidad">
+                                <input type="submit" value="agotado" class="agotado">
+                            </form>
+                        </div> 
+                        <div class="mt-4 text-center">
+                            <h2 class="color1">precio: $45.000</h2>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4 mt-5">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus fugiat fuga! Qui quos numquam voluptatem exercitationem neque corporis accusamus, velit maiores dolorum aspernatur, suscipit harum illo, unde nobis beatae?</p>
-                </div>    
-                <div class="col-12 col-md-4 col-lg-4 mt-5">
-                    <form action="">
-                        <label for="cantidad">cantidad:</label>
-                        <input type="number" name="" id="cantidad">
-                        <input type="submit" value="comprar">
-                    </form>
-                </div>
-            </div>
-        </section>
-       
-    </main>
-    <footer>
-        <p class="texto_final text-center mt-5">TODOS LOS DERECHOS RESERVADOS.</p>
-    </footer> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>       
+            </section>   
+        </main>
 
-</body>
+        <footer>
+            <p class="texto_final text-center mt-5">TODOS LOS DERECHOS RESERVADOS.</p>
+        </footer> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>       
+    </body>
 </html>

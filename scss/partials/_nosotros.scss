@@ -1,23 +1,20 @@
 /*hoja de estilos para pagina nosotros*/
+@import "../mixins/mixins";
 
 .separar{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
+    @include flex-tipo;
     align-items: center;
     gap:10px;
 }
 @media (min-width: 720px) {
-    .separar{
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
+    .separar{ 
+        @include flex-tipo;
         align-items: center;
         gap:50px;
     }
 
 }
-.ubicacion1{
-    margin-left:100px;
+.tamaño2{
+    font-size:x-large;
 }
 

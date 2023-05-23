@@ -1,0 +1,9 @@
+@import "../mixins/mixins";
+
+#error404{
+    @include flex-columna;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 150px;
+    font-size:x-large;
+}
